@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 .App-logo {
@@ -35,4 +37,29 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+form {
+  margin: 30px;
+  padding: 20px;
+  background-color: lightblue;
+}
+
+fieldset {
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+label {
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+legend {
+  text-align: center;
 }
